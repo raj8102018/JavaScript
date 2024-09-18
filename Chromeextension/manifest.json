@@ -1,0 +1,12 @@
+{
+        "manifest_version": 3,
+        "version": "1.0",
+        "name": "Log it",
+        "action": {
+            "default_popup": "extension.html",
+            "default_icon": "pencil.png"
+        },
+        "permissions": [
+            "tabs"
+        ]
+}

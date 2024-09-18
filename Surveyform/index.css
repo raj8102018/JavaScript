@@ -1,0 +1,94 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2.5em;
+	
+}
+
+body {
+  background-image:  url("images/back.jpg");}
+}
+
+#description{
+  color:  white;
+  font-style: italic;
+  font-size: larger;
+  font-weight: lighter;
+}
+#title {
+  color:  white;
+  font-weight: lighter;
+  font-size:xx-large;
+}
+
+#description {
+  color:  white;
+  font-style: italic;
+  font-size: large;
+}
+
+
+
+input#name,#number, #email, #dropdown {
+  width:100%;
+  border-radius: 3px;
+  border-style: none;
+  
+}
+#title, #description {
+	text-align: center;
+  line-height: 1em;
+  font-family: 'Raleway';
+}
+
+#survey-form {
+  color: white;
+  width: 600px;
+  background-color: #1b1b32;
+  border: 2px solid #6E60A4;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding:  40px;
+  text-align: left;
+}
+
+#dropdown {
+  height: 2.25em;
+}
+
+#button, #suggestions, #comment, #feature, #recommend #role{
+  margin-top: 2%;
+  font-size: large;
+}
+
+select {
+  color: #9e9e9e;
+}
+option:not(:first-of-type) {
+  color: black;
+}
+
+#comments {
+  border-radius: 5px;
+  width : 100%;
+}
+
+#comment {
+  text-align: left;
+
+}
+
+button {  
+  background-color: #37af65;
+  color: white;
+  border:  none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+   font-weight: thin;
+  font-size: large;
+  width:  100%;
+  margin-top: 2%;
+  margin-bottom: 10px;
+  border-radius: 5px;  
+}  

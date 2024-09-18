@@ -1,0 +1,86 @@
+body {
+background-image:  url("../images/back.jpg");}
+
+p {
+  font-family: "Times New Roman", Times, Serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: 'Book Antiqua', 'Palatino Linotype', Palatino, serif;
+  text-align: Center;
+  color: black;
+ 
+}
+
+h2 {
+ font-family: "Times New Roman", Times, Serif;
+ text-align: center;
+ font-size: xx-large;
+
+}
+
+
+
+div#button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+div#save {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:  200px;
+  display: flex;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 10%;
+  color: #d9d8d7;  
+}
+div#reset {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  margin-top: 20%;
+}
+div#log {
+  font-weight: bolder;
+  font-size: large;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  margin-top:20%}
+
+
+button {  
+  border:  none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: thin;
+  font-size: large;
+  width:  200px;
+  margin-bottom: 5px;
+  border-radius: 5px;  
+}  
+
+#increment {
+  background:#d9d8d7;
+}
+
+.container {
+      width: 350px;
+      height: 400px;
+      background-image: radial-gradient(#bab9b6, #0d0d0c);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: auto;
+      padding: 10px;
+      transform: translate(0%, 50%);
+      border-radius: 5px;
+    }
+    
